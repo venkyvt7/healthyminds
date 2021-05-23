@@ -1,0 +1,30 @@
+.imgmeme {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+}
+.main1 {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+  margin-left: 5vw;
+}
+.btn-generate {
+  display: flex;
+  justify-content: center;
+  width: 10vw;
+}
+.btn1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+}
+
+.meme-style {
+  width: 30vw;
+  height: 60vh;
+}

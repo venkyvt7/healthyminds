@@ -1,0 +1,127 @@
+.mainhead11{
+
+  background-color: #6610f2;
+  
+}
+
+
+.Mainnav{
+
+  padding: 2rem;
+  margin-left:2px;
+  /* background-color: blue; */
+  /* display: flex; */
+  /* flex-direction:column; */
+  /* float:left; */
+  /* margin: auto; */
+  /* align-items: center; */
+  
+}
+.mainlink{
+  
+  /* margin-top: 3vh; */
+  /* float: left; */
+}
+.sublink{
+  /* display: flex; */
+  flex-direction: row;
+  display: inline;
+
+}
+.homelink{
+  float: left;
+}
+.rightlinks{
+  display: flex;
+  float: right;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: aliceblue;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.links{
+  margin-right:4vw ;
+  list-style-type: none;
+  text-decoration: none;
+  
+  /* margin-top: 2vh; */
+  /* float:right; */
+}
+
+@media (max-width: 715px) { 
+
+  .mainhead11{
+
+     height: 48vh;
+    background-color: #6610f2;
+    
+  }
+  
+  
+  .Mainnav{
+  
+    padding: 0.5rem;
+    /* margin-left:2px; */
+    /* background-color: blue; */
+    display: block;
+    flex-direction:column;
+    /* float:left; */
+    display: block;
+    /* margin: auto; */
+    /* align-items: center; */
+    
+  }
+  .mainlink{
+    display: block;
+    /* margin-top: 3vh; */
+    /* float: left; */
+  }
+  .sublink{
+    /* display: block; */
+    /* flex-direction: row; */
+    display: block;
+    align-items: center;
+  
+  }
+  .homelink{
+    display: block;
+    float: none;
+    align-items: center;
+  }
+  .rightlinks{
+    display: block;
+    float: none;
+    align-items: center;
+    /* float: right; */
+    /* justify-content: center; */
+  
+  }
+  
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    /* margin-bottom:2vh ; */
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .links{
+    margin-right:0vw ;
+    
+    margin: 1rem;
+    list-style-type: none;
+    text-decoration: none;
+    
+    /* margin-top: 2vh; */
+    /* float:right; */
+  }
+
+}
